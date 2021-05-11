@@ -6,19 +6,15 @@ const TopSection = () => {
   return (
     <TopSectionWrapper>
       <TopSectionInnerWrapper>
-        <h3>Unlock The Best Version of You</h3>
+        <h3>Unlock The Best Version of You.</h3>
         <p>
-          Sphere is an end to end coaching experience in your pocket. With
-          Sphere coaching is accessable to the masses. Our platform is allowing
-          anyone and everyone to be paired with an ideal Guide to help you learn
-          about yourself and take action to grow into the best version of you.
+          Sphere is an accessable end to end coaching experience in your pocket.
+          Our platform is allowing anyone and everyone to be paired with an
+          ideal Guide to help you learn about yourself and take action to grow
+          into the best version of you.
         </p>
-        <p>
-          Our guides are specialized, certifide and trained to help you
-          accomplish your goals. Our guides are future facing, goal orientated
-          and an unbiased partner to support your wellness. Our Guides are here
-          to help you achieve your personal and professional goals.
-        </p>
+
+        <Button href="https://sphere.guide/">Try for Free</Button>
       </TopSectionInnerWrapper>
     </TopSectionWrapper>
   );
@@ -31,19 +27,35 @@ background-color: ${colors.black};
 width: 100%;
 height: 500px;
 min-height: 500px;
+margin-top: 70px;
 display: flex;
 align-items: center;
 justify-content: center;
 `;
 
 const TopSectionInnerWrapper = Styled.div`
+margin-top: 80px;
 width: 65%;
 color: ${colors.white};
+display: flex;
+flex-direction: column;
 
 h3 {
   font-size: 60px;
 }
 p {
-  font-size: 25px;
+  font-size: 35px;
 }
+`;
+
+const Button = Styled.a`
+  margin-top: 30px;
+  background-color: ${colors.blue_primary};
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-size: 25px;
+  color: ${colors.white};
+  border: 0;
+  cursor: pointer;
+  align-self: center;
 `;
