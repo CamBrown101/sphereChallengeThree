@@ -2,7 +2,6 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import TopSection from "../components/TopSection";
 import MiddleSection from "../components/MiddleSection";
-import BottomSection from "../components/BottomSection";
 import Nav from "../components/Nav";
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
       <Nav />
       <TopSection />
       <MiddleSection />
-      {/* <BottomSection /> */}
     </div>
   );
 }
