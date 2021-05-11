@@ -7,6 +7,10 @@
   font-family: Favorite Medium;
   src: url("../assets/Fonts/Favorit-Medium.otf") format("opentype");
 }
+@font-face {
+  font-family: Mercury Display;
+  src: url("../assets/Fonts/MercuryDisplay-Bold.otf") format("opentype");
+}
 
 html,
 body {
