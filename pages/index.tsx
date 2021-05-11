@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import TopSection from "../components/TopSection";
 import MiddleSection from "../components/MiddleSection";
 import BottomSection from "../components/BottomSection";
+import Nav from "../components/Nav";
 
 export default function Home() {
   return (
@@ -12,9 +13,10 @@ export default function Home() {
         <meta name="description" content="Cam Brown's Sphere Landing Page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Nav />
       <TopSection />
       <MiddleSection />
-      <BottomSection />
+      {/* <BottomSection /> */}
     </div>
   );
 }
