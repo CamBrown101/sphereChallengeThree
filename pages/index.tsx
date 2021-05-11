@@ -1,6 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import TopSection from "../components/TopSection";
+import MiddleSection from "../components/MiddleSection";
+import BottomSection from "../components/BottomSection";
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <TopSection />
+      <MiddleSection />
+      <BottomSection />
     </div>
   );
 }
