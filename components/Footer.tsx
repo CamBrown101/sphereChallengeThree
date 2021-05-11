@@ -1,7 +1,7 @@
 import React from "react";
 import Styled from "styled-components";
 import colors from "../assets/colors";
-import { Button } from "../components/TopSection";
+import { Button } from "./Header";
 
 const Footer = () => {
   return (

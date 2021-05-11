@@ -1,8 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Nav from "../components/Nav";
-import TopSection from "../components/TopSection";
-import MiddleSection from "../components/MiddleSection";
+import Header from "../components/Header";
+import CardContainer from "../components/CardContainer";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -14,8 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <TopSection />
-      <MiddleSection />
+      <Header />
+      <CardContainer />
       <Footer />
     </div>
   );
