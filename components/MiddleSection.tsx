@@ -15,9 +15,8 @@ const MiddleSection = () => {
           content="At Sphere we personally vett all of our Guides to insure you are
             getting support from people who are talented, passionate, and
             certified. Our Guides come from all walks of life allowing them to
-            offer guidance in any area which you are seeking development. To
-            ensure your Guide is the best match for you, have your first session
-            on us."
+            offer guidance in any area which you are seeking development. Our Guides are 
+            there to be an unbias tool to help you grow."
           image={heroImage}
           imageRight={false}
           backgroundColor={"white"}
