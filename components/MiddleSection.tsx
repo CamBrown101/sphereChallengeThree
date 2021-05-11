@@ -12,11 +12,11 @@ const MiddleSection = () => {
       <MiddleWrapperInner>
         <Card
           heading="Bringing The Best Guides For You"
-          content="At Sphere we personally vett all of our Guides to insure you are
+          content="At Sphere we personally vet all of our Guides to insure you are
             getting support from people who are talented, passionate, and
             certified. Our Guides come from all walks of life allowing them to
             offer guidance in any area which you are seeking development. Our Guides are 
-            there to be an unbias tool to help you grow."
+            there to be an unbiased tool to help you grow."
           image={heroImage}
           imageRight={false}
           backgroundColor={"white"}
@@ -34,7 +34,7 @@ const MiddleSection = () => {
         <Card
           heading="Coaching Should Be Accessible"
           content="We are bringing coaching to the masses by making our Guides
-            avaliable to you anywhere with our App. Our App is an end to end
+            available to you anywhere with our App. Our App is an end to end
             coaching experience, allowing you the access to schedule, message 
             and have sessions all in your pocket. We offer multiple payment plans so
             that you can choose the option that works best for you."

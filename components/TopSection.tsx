@@ -8,7 +8,7 @@ const TopSection = () => {
       <TopSectionInnerWrapper>
         <h3>Unlock The Best Version of You.</h3>
         <p>
-          Sphere is an accessable end to end coaching experience in your pocket.
+          Sphere is an accessible end to end coaching experience in your pocket.
           Our platform is allowing anyone and everyone to be paired with an
           ideal Guide to help you learn about yourself and take action to grow
           into the best version of you.
