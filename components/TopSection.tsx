@@ -48,7 +48,7 @@ p {
 }
 `;
 
-const Button = Styled.a`
+export const Button = Styled.a`
   margin-top: 30px;
   background-color: ${colors.blue_primary};
   border-radius: 10px;
