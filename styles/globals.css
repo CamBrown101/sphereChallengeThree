@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Favorite Regular;
+  src: url("../assets/Fonts/Favorit-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Favorite Medium;
+  src: url("../assets/Fonts/Favorit-Medium.otf") format("opentype");
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +23,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h3 {
+  margin: 0;
 }
